@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Arizonia&family=Bangers&family=Berkshire+Swash&family=Concert+One&family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Great+Vibes&family=Henny+Penny&family=Imperial+Script&family=Mea+Culpa&family=Oleo+Script+Swash+Caps:wght@400;700&family=Orelega+One&family=Oswald:wght@500;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Raleway+Dots&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&family=Smokum&family=Special+Elite&family=Stint+Ultra+Condensed&family=Water+Brush&family=Yeseva+One&family=Zen+Loop:ital@0;1&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,6 @@ nav {
   top: 0;
   width: 100%;
   background-color: hsl(9, 89%, 58%);
-  font-weight: bold;
 }
 
 .text {
@@ -25,6 +25,7 @@ h1 {
 
 .container li {
   display: inline-block;
+  margin-top: 1rem;
 }
 
 .container li a {
@@ -32,11 +33,14 @@ h1 {
   text-decoration: none;
   font-size: 2rem;
   padding: 1rem;
+  margin: 1.2rem;
+  font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.container :last-child {
+
+.container li:last-child {
   float: right;
-  margin: 0.5rem 2rem;
+  margin: 0.6rem 3rem;
 }
 
 .text :first-child {
@@ -55,7 +59,7 @@ footer {
 }
 footer > p {
   color: white;
-  padding: 2rem;
+  padding: 1.2rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
